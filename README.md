@@ -13,24 +13,38 @@ A comprehensive retail analytics solution combining demand forecasting, customer
    
 **These Files are Saved in notebooks"
 
-graph TD
-    A[Raw Walmart Sales Data] --> B[Data Preprocessing]
-    B --> C{Analysis Phase}
-    C --> D[Demand Forecasting]
-    C --> E[Customer Segmentation]
-    C --> F[Pricing Optimization]
-    
-    D --> D1[ARIMA/Prophet Models]
-    D --> D2[Economic Factor Integration]
-    D --> D3[Inventory Policy Recommendations]
-    
-    E --> E1[RFM Analysis]
-    E --> E2[K-Means Clustering]
-    E --> E3[Targeted Marketing Strategies]
-    
-    F --> F1[Price Elasticity Modeling]
-    F --> F2[Promotion Impact Analysis]
-    F --> F3[Revenue Optimization]
-    
-    D & E & F --> G[Ethical Validation]
-    G --> H[Actionable Business Insights]
+🔄 Project Stages
+Data Preparation & EDA
+"Cleaning and feature engineering are critical for reliable forecasting" (Ahmedov, 2022)
+
+Missing value imputation (35.8% in markdown data)
+
+Temporal feature engineering (weekly lags, holiday flags)
+
+Demand Forecasting
+"SARIMAX outperforms traditional methods for CPG sales" (Nasseri et al., 2023)
+
+Time-series analysis (ARIMA/Prophet comparison)
+
+External factor integration (CPI, unemployment)
+
+Customer Segmentation
+"RFM clustering reveals high-value purchaser cohorts" (Anitha & Patil, 2022)
+
+K-Means clustering by purchase patterns
+
+Holiday shopper profiling
+
+Pricing Optimization
+"Dynamic pricing boosts margins 12-18%" (Khatiwada, 2024)
+
+Price elasticity modeling
+
+Promotion impact analysis
+
+Ethical Validation
+"Bias mitigation essential for fair pricing" (Aldoseri et al., 2023)
+
+Fairness checks across store types
+
+Explainable AI (XAI) reporting
