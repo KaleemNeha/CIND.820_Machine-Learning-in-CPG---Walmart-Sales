@@ -10,4 +10,4 @@ A comprehensive retail analytics solution combining demand forecasting, customer
 3. **Customer Segmentation**  
 4. **Price Optimization**  
    *Identified 12-18% margin improvement potential*
-
+**These Files are Saved in notebooks"
